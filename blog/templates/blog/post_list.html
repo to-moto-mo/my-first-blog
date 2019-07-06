@@ -6,7 +6,9 @@
         <div>
             <h1><a href="/">Django Girls Blog</a></h1>
         </div>
-
+{% for post in posts %}
+    {{ post }}
+{% endfor %}
 {{posts}}{{posts}}{{posts}}{{posts}}
     </body>
 </html>
